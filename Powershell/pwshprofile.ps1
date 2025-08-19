@@ -8,3 +8,9 @@ oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/
 
 # Modules Neeed at runtime
 Import-Module -Name Terminal-Icons
+
+# Alias
+Set-Alias ll ls
+Set-Alias vi nvim
+Set-Alias g git
+Set-Alias grep findstr
