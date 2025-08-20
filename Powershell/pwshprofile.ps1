@@ -14,3 +14,4 @@ Set-Alias ll ls
 Set-Alias vi nvim
 Set-Alias g git
 Set-Alias grep findstr
+Set-Alias cls clear
