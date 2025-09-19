@@ -9,6 +9,9 @@ oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/
 # Modules Neeed at runtime
 Import-Module -Name Terminal-Icons
 
+# Importing Zoxide configuration
+Invoke-Expression (& { (zoxide init powershell | Out-String) })
+
 # Alias
 Set-Alias ll ls
 Set-Alias vi nvim
