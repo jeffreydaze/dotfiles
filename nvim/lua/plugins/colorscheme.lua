@@ -1,19 +1,12 @@
 return {
-	-- Tokyonight theme.
 	{
-		"folke/tokyonight.nvim",
-		lazy = false, -- Set to false because I want to have the theme to load at launch
-		priority = 1000, -- Setting priority above everything else so it loads first
-		-- Applying the theme
+		"rose-pine/neovim",
+		name = "rose-pine",
 		config = function()
-			vim.cmd([[colorscheme tokyonight-night]])
+			vim.cmd("colorscheme rose-pine")
 			vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 			vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+
 		end,
-	},
-	{
-    		"scottmckendry/cyberdream.nvim",
-    		lazy = false,
-    		priority = 1000,
-    	},
+	}
 }
