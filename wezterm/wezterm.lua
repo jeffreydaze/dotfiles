@@ -63,7 +63,7 @@ config.window_background_opacity = 1
 config.window_background_image_hsb = { brightness = 0.2, }
 
 -- Appearance Settings i.e. ColorTheme and Fonts 
-config.font_size = 14
+config.font_size = 11
 config.line_height = 1.2
 config.color_scheme = 'tokyonight_night'
 config.font = wezterm.font ('JetBrainsMono Nerd Font')
