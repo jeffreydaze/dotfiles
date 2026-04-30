@@ -53,9 +53,7 @@ config.integrated_title_button_alignment = "Right"
 config.integrated_title_button_style = "Windows"
 config.integrated_title_buttons = { "Hide", "Maximize", "Close" }
 config.window_decorations = "RESIZE"
-config.hide_tab_bar_if_only_one_tab = false
-config.tab_bar_at_bottom = true
-config.use_fancy_tab_bar = true
+config.enable_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
 --local dimmer = { brightness = 0.5 }
 config.window_background_image = constants.bg_image
