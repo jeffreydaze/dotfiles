@@ -53,9 +53,7 @@ config.integrated_title_button_alignment = "Right"
 config.integrated_title_button_style = "Windows"
 config.integrated_title_buttons = { "Hide", "Maximize", "Close" }
 config.window_decorations = "RESIZE"
-config.hide_tab_bar_if_only_one_tab = false
-config.tab_bar_at_bottom = true
-config.use_fancy_tab_bar = true
+config.enable_tab_bar = false
 config.tab_and_split_indices_are_zero_based = true
 --local dimmer = { brightness = 0.5 }
 config.window_background_image = constants.bg_image
@@ -65,7 +63,7 @@ config.window_background_image_hsb = { brightness = 0.2, }
 -- Appearance Settings i.e. ColorTheme and Fonts 
 config.font_size = 11
 config.line_height = 1.2
-config.color_scheme = 'tokyonight_night'
+config.color_scheme = 'rose-pine'
 config.font = wezterm.font ('JetBrainsMono Nerd Font')
 config.colors = {
 	cursor_bg = "white",
