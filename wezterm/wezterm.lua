@@ -58,7 +58,7 @@ config.tab_and_split_indices_are_zero_based = true
 --local dimmer = { brightness = 0.5 }
 config.window_background_image = constants.bg_image
 config.window_background_opacity = 1
-config.window_background_image_hsb = { brightness = 0.2, }
+config.window_background_image_hsb = { brightness = 0.1, }
 
 -- Appearance Settings i.e. ColorTheme and Fonts 
 config.font_size = 11
