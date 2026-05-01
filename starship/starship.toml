@@ -90,7 +90,7 @@ disabled = false
 symbol = " "
 
 [lua]
-sytle = "bg:overlay fg:pine"
+style = "bg:overlay fg:pine"
 format = " [](fg:overlay)[ $symbol$version ]($style)[](fg:overlay)"
 disabled = false
 symbol = ' '
