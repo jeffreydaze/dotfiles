@@ -6,7 +6,8 @@ This is very much a work in progress and an attempt to learn out in the open. ;)
 Current things in my dotfiles.
 
     - Wezterm
-    - NeoVim
+    - Neovim
     - Powershell Profile
+    - Starship
 
 All of these are a work in progress, so follow at your own risk!
