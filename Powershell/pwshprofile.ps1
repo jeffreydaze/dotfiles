@@ -12,6 +12,7 @@ Invoke-Expression (&starship init powershell)
 
 # Modules Neeed at runtime
 Import-Module -Name Terminal-Icons
+Import-Module PSReadline
 
 # Importing Zoxide configuration
 Invoke-Expression (& { (zoxide init powershell | Out-String) })
