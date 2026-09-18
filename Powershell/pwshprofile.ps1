@@ -13,9 +13,9 @@ Invoke-Expression (&starship init powershell)
 # Modules Neeed at runtime
 Import-Module -Name Terminal-Icons
 Import-Module -Name PSReadline
-
+Import-Module -Name CompletionPredictor 
 # PSReadline Config
-Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionSource HistoryAndPlugin 
 Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -EditMode Windows
 
