@@ -1,5 +1,7 @@
 -- Pull in the wezterm API
 local wezterm = require 'wezterm'
+local mux = wezterm.mux
+local act = wezterm.action
 local constants = require "constants"
 --local keys = require("keys")
 local config = wezterm.config_builder()
@@ -73,7 +75,7 @@ config.colors = {
 -- Mapping Leader
 config.leader = { key = 'a', mods = 'CTRL' }
 --keys.setup(config)
-
+-- config.keys = { key = 'v', mods = 'CTRL', action = act.PasteFrom 'Clipboard' },
 -- Wezterm Module for Tabline and installation
 -- local tabline = wezterm.plugin.require("https://github.com/michaelbrusegard/tabline.wez")
 
